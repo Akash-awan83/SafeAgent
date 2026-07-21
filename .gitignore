@@ -1,0 +1,72 @@
+# Python bytecode and interpreter caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local Python tooling
+.venv/
+venv/
+env/
+ENV/
+__pypackages__/
+.python-version
+pip-wheel-metadata/
+
+# Test, coverage, and analysis artifacts
+.pytest_cache/
+.pytest-tmp/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.tox/
+.nox/
+
+# Build and distribution artifacts
+build/
+dist/
+site/
+*.egg-info/
+*.egg
+*.whl
+
+# SafeAgent runtime state, audit output, generated models, and recovery copies
+.safeagent/
+data/*.jsonl
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+models/*.json
+models/*.joblib
+models/*.pkl
+models/*.pickle
+.tmp-risk-model.json
+
+# Logs and transient files
+logs/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Local environment secrets and Streamlit secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local IDE, notebook, and operating-system files
+.vscode/
+.idea/
+*.code-workspace
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+desktop.ini
